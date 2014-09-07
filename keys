@@ -1,3 +1,4 @@
+# stuff to install: sudo apt-get install fluxbox xfe suckless-tools clementine
 # Audo control keys
 # See http://ubuntuforums.org/showthread.php?t=617812
 None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
