@@ -1,8 +1,5 @@
-# Audo control keys
-# See http://ubuntuforums.org/showthread.php?t=617812
-None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
-None XF86AudioRaiseVolume       :Exec amixer sset Master,0 5%+
-#None XF86AudioMute              :Exec amixer sset Master,0 toggle
+Control Mod1 Up :Exec amixer set Master,0 5%+
+Control Mod1 Down :Exec amixer set Master,0 5%-
 
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
