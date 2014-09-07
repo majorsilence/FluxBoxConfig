@@ -1,0 +1,4 @@
+[begin] (fluxbox)
+[exec] (firefox) {firefox}
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
