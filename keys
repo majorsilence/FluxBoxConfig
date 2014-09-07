@@ -2,7 +2,22 @@
 # See http://ubuntuforums.org/showthread.php?t=617812
 None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
 None XF86AudioRaiseVolume       :Exec amixer sset Master,0 5%+
-#None XF86AudioMute              :Exec amixer sset Master,0 toggle
+None XF86AudioMute              :Exec amixer set Master toggle
+# Mute may require /etc/asound.conf to unmute
+# pcm.pulse {
+#    type pulse
+# }
+#ctl.pulse {
+#    type pulse
+#}
+#pcm.!default {
+#    type pulse
+#}
+#ctl.!default {
+#    type pulse
+#}
+
+
 
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
