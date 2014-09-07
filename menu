@@ -3,5 +3,6 @@
 [exec] (Lock Screen) {slock}
 [exec] (Terminal) {gnome-terminal}
 [exec] (Sublime) {subl}
+[exec] (File Manager) {xfe}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
