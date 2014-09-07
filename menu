@@ -5,5 +5,6 @@
 [exec] (Sublime) {subl}
 [exec] (File Manager) {xfe}
 [exec] (Music) {clementine}
+[exec] (Torrents) {transmission-gtk}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
