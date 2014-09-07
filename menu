@@ -4,5 +4,6 @@
 [exec] (Terminal) {gnome-terminal}
 [exec] (Sublime) {subl}
 [exec] (File Manager) {xfe}
+[exec] (Music) {clementine}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
