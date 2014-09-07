@@ -1,4 +1,6 @@
 [begin] (fluxbox)
-[exec] (firefox) {firefox}
+[exec] (Firefox) {firefox}
+[exec] (Lock Screen) {slock}
+[exec] (Terminal) {gnome-terminal}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
