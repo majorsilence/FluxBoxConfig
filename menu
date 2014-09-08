@@ -3,7 +3,8 @@
 [exec] (Lock Screen) {slock}
 [exec] (Terminal) {gnome-terminal}
 [exec] (Sublime) {subl}
-[exec] (File Manager) {xfe}
+[exec] (File Manager - xfe) {xfe}
+[exec] (File Manager - nautilus) {nautilus}
 [exec] (Music) {clementine}
 [exec] (Torrents) {transmission-gtk}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
