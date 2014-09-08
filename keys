@@ -1,9 +1,21 @@
 # stuff to install: sudo apt-get install fluxbox xfe suckless-tools clementine
 # Audo control keys
 # See http://ubuntuforums.org/showthread.php?t=617812
+
+# volume settings, using common keycodes
+# if these don't work, use xev to find out your real keycodes
+# 176 :Exec amixer sset Master,0 1+
+# 174 :Exec amixer sset Master,0 1-
+# 160 :Exec amixer sset Master,0 toggle
+
 None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
 None XF86AudioRaiseVolume       :Exec amixer sset Master,0 5%+
 None XF86AudioMute              :Exec amixer set Master toggle
+# keyboards without volume controls: Alt+Ctrl+Up/Down keys
+Control Mod1 Up :Exec amixer set Master,0 5%+
+Control Mod1 Down :Exec amixer set Master,0 5%-
+
+
 # Mute may require /etc/asound.conf to unmute
 # pcm.pulse {
 #    type pulse
@@ -84,12 +96,6 @@ Mod1 F1 :Exec x-terminal-emulator
 
 # open a dialog to run programs
 Mod1 F2 :Exec fbrun
-
-# volume settings, using common keycodes
-# if these don't work, use xev to find out your real keycodes
-176 :Exec amixer sset Master,0 1+
-174 :Exec amixer sset Master,0 1-
-160 :Exec amixer sset Master,0 toggle
 
 # current window commands
 Mod1 F4 :Close
