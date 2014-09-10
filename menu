@@ -7,5 +7,6 @@
 [exec] (File Manager - nautilus) {nautilus}
 [exec] (Music) {clementine}
 [exec] (Torrents) {transmission-gtk}
+[exec] (Suspend) {dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend ; slock}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
