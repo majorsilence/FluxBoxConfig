@@ -15,6 +15,7 @@ xmodmap "/home/peter/.Xmodmap"
 # wmsmixer -w &
 # idesk &
 nm-applet &
+dropbox start &
 
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
