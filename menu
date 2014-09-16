@@ -1,6 +1,6 @@
 [begin] (fluxbox)
 [exec] (Firefox) {firefox}
-[exec] (Lock Screen) {slock}
+[exec] (Lock Screen) {gnome-screensaver-command -l}
 [exec] (Terminal) {gnome-terminal}
 [exec] (Sublime) {subl}
 [exec] (Monodevelop) {/opt/monodevelop-20140910133408/bin/monodevelop}
@@ -8,6 +8,6 @@
 [exec] (File Manager - nautilus) {nautilus}
 [exec] (Music) {clementine}
 [exec] (Torrents) {transmission-gtk}
-[exec] (Suspend) {dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend ; slock}
+[exec] (Suspend) {dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend ; gnome-screensaver-command -l}
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]
