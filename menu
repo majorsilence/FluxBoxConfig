@@ -3,7 +3,7 @@
 [exec] (Lock Screen) {gnome-screensaver-command -l}
 [exec] (Terminal) {gnome-terminal}
 [exec] (Sublime) {subl}
-[exec] (Monodevelop) {/opt/monodevelop-20140918065427/bin/monodevelop}
+[exec] (Monodevelop) {/opt/monodevelop-20141013005209/bin/monodevelop}
 [exec] (File Manager - xfe) {xfe}
 [exec] (File Manager - nautilus) {nautilus}
 [exec] (Music) {clementine}
