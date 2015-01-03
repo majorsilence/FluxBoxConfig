@@ -5,7 +5,7 @@
 [exec] (Sublime) {subl}
 [exec] (Monodevelop) {monodevelop}
 [exec] (File Manager - xfe) {xfe}
-[exec] (File Manager - nautilus) {nautilus}
+[exec] (File Manager - nautilus) {nautilus --no-desktop}
 [exec] (Music) {clementine}
 [exec] (Torrents) {transmission-gtk}
 [exec] (Suspend) {dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend ; gnome-screensaver-command -l}
