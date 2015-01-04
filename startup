@@ -16,6 +16,7 @@ xmodmap "/home/peter/.Xmodmap"
 # idesk &
 nm-applet &
 dropbox start &
+unity-settings-daemon &
 
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
