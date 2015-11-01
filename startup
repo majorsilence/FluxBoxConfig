@@ -15,7 +15,7 @@ xmodmap "/home/peter/.Xmodmap"
 # wmsmixer -w &
 # idesk &
 nm-applet &
-dropbox start &
+# dropbox start &
 unity-settings-daemon &
 
 # Debian-local change:
