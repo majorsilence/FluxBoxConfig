@@ -6,7 +6,7 @@
 # if these don't work, use xev to find out your real keycodes
 # 176 :Exec amixer sset Master,0 1+
 # 174 :Exec amixer sset Master,0 1-
-# 160 :Exec amixer sset Master,0 toggle
+# 160 :Exec amixer -D pulse set Master Playback Switch toggle
 
 None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
 None XF86AudioRaiseVolume       :Exec amixer sset Master,0 5%+
