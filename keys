@@ -30,7 +30,8 @@ Control Mod1 Down :Exec amixer set Master,0 5%-
 #    type pulse
 #}
 
-
+# Lock screen, alt + l
+Mod1 l :ExecCommand gnome-screensaver-command -l
 
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
