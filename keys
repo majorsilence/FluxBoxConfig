@@ -6,7 +6,7 @@
 # if these don't work, use xev to find out your real keycodes
 # 176 :Exec amixer sset Master,0 1+
 # 174 :Exec amixer sset Master,0 1-
-# 160 :Exec amixer sset Master,0 toggle
+# 160 :Exec amixer -D pulse set Master Playback Switch toggle
 
 None XF86AudioLowerVolume       :Exec amixer sset Master,0 5%-
 None XF86AudioRaiseVolume       :Exec amixer sset Master,0 5%+
@@ -30,6 +30,17 @@ Control Mod1 Down :Exec amixer set Master,0 5%-
 #    type pulse
 #}
 
+# Lock screen, alt + l
+Mod1 l :ExecCommand gnome-screensaver-command -l
+
+# screen brightness
+# keys: dim 232, bright 233
+XF86MonBrightnessDown : Exec xbacklight -dec 10
+Mod1 XF86MonBrightnessDown : Exec xbacklight -dec 3
+Mod4 XF86MonBrightnessDown : Exec xbacklight -set 15
+XF86MonBrightnessUp : Exec xbacklight -inc 10
+Mod1 XF86MonBrightnessUp : Exec xbacklight -inc 3
+Mod4 XF86MonBrightnessUp : Exec xbacklight -set 100
 
 
 # click on the desktop to get menus
