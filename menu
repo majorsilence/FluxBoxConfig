@@ -3,7 +3,7 @@
 [exec] (Firefox) {firefox}
 [exec] (Lock Screen) {gnome-screensaver-command -l}
 [exec] (Terminal) {gnome-terminal}
-[exec] (Sublime) {subl}
+[exec] (VS Code) {code}
 [exec] (Monodevelop) {monodevelop}
 [exec] (File Manager - nautilus) {nautilus --no-desktop}
 [exec] (Music) {clementine}

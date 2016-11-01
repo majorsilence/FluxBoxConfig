@@ -20,9 +20,9 @@ unity-settings-daemon &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 
-if which cairo-dock > /dev/null; then
-    cairo-dock &
-fi
+# if which cairo-dock > /dev/null; then
+#    cairo-dock &
+# fi
 
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
